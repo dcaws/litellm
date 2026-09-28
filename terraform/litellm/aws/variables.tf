@@ -438,7 +438,7 @@ variable "db_instance_class" {
 variable "db_engine_version" {
   description = "Aurora Postgres engine version. Major version drives the parameter-group family (aurora-postgresql<major>)."
   type        = string
-  default     = "16.4"
+  default     = "16.15"
 }
 
 variable "db_name" {
