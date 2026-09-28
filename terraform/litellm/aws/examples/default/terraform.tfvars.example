@@ -1,5 +1,11 @@
 region = "us-west-2"
 
+acm_certificate_arn = "arn:aws:acm:us-west-2:831238166961:certificate/94e56451-1f59-4320-9f1e-9937ba436310"
+
+gateway_extra_env = {
+  STORE_MODEL_IN_DB = "true"
+}
+
 # Networking: by default the module creates a VPC, public/private subnets in
 # each AZ listed here, an internet gateway, a NAT gateway, and route tables.
 azs = ["us-west-2a", "us-west-2b"]
